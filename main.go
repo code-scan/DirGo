@@ -23,6 +23,7 @@ func banner(){
 
 }
 func main() {
+	banner()
 	flag.StringVar(&target, "t", "", "target url ,http://baidu.com")
 	flag.StringVar(&batchTarget, "f", "", "target file ")
 	flag.StringVar(&dirFile, "d", "dict/dirs.txt", "target file ")
