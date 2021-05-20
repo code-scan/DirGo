@@ -1,6 +1,8 @@
 github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBKeU+7zCJoLcc=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
 github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod h1:wHh0iHkYZB8zMSxRWpUBQtwG5a7fFgvEO+odwuTv2gs=
+github.com/code-scan/Goal v0.2.35 h1:hjT/rh1vTDUV7SPYe49c2Me5p5AnEkYJv7ymdf2GRlI=
+github.com/code-scan/Goal v0.2.35/go.mod h1:WnMZ98BhfMaaSWQrcPo0uXWlXuI3DNCT+B2jWzV0/y4=
 github.com/code-scan/Goal v0.2.97 h1:dOf6p5pPHLtY4bOfsX0QsvKvTRyZIhZ7ar6W7mIoxCI=
 github.com/code-scan/Goal v0.2.97/go.mod h1:WnMZ98BhfMaaSWQrcPo0uXWlXuI3DNCT+B2jWzV0/y4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
