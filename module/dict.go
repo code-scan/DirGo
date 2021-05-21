@@ -33,11 +33,14 @@ func AddTask(targetList, dirList []string) {
 		if t[0:4] != "http" {
 			t = fmt.Sprintf("http://%s", t)
 		}
-		if t[len(t)-1:] != "/" {
-			t = fmt.Sprintf("%s/", t)
-		}
+		ulen := len(t)
 		for _, d := range dirList {
-			uri := fmt.Sprintf("%s%s", t, d)
+			var uri string
+			if len(d) > 0 && d[0:1] != "/" && t[ulen-1:] != "/" {
+				uri = fmt.Sprintf("%s/%s", t, d)
+			} else {
+				uri = fmt.Sprintf("%s%s", t, d)
+			}
 			TaskQueue <- uri
 		}
 	}
