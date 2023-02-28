@@ -45,9 +45,9 @@ func AddTask(targetList, dirList []string) {
 		}
 	}
 }
-func RunTask(mode, ext string) {
+func RunTask(mode, ext, keyword string, codes map[int]bool) {
 	for {
-		scan := NewScan(mode, ext)
+		scan := NewScan(mode, ext, keyword, codes)
 		select {
 		case u := <-TaskQueue:
 			scan.Check(u)
